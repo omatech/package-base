@@ -1,0 +1,23 @@
+{
+    "name": "apons/package-base",
+    "description": "Standard base package with phpunit",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Agusti Pons",
+            "email": "apons@omatech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
